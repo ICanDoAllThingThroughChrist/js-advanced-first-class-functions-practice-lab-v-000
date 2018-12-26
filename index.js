@@ -12,11 +12,15 @@ const logDriversByHometown = function (drivers, location) {
         }
     })
 }
+//how to create a constant driversByRevenue assigned to anonymous function() with drivers array argument
 const driversByRevenue = function (drivers) {
   debugger;
+//how to assign to a variable, a new Object of new array with drivers array as argument
   let newArray = Object.create(drivers);
   debugger;
+//how to output sorted function of the new variable
    return newArray.sort(function (a, b) {
+//how to sort with callback function of 2 integer arguments in descending order
        return a.revenue - b.revenue
    });
  }
@@ -43,7 +47,7 @@ return totalRevenue;
 };
 //how to create a constant averageRevenue assigned to anonymous function() with drivers array argument?
 const averageRevenue = function(drivers) {
-//how to output a calculated average revenue per drivers? numerator is totalRevenue(drivers), 
+//how to output a calculated average revenue per drivers? numerator is totalRevenue(drivers),
 //denominator is drivers.length
 return totalRevenue(drivers) / drivers.length;
 };
