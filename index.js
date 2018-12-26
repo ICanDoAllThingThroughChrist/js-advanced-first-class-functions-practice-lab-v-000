@@ -4,10 +4,13 @@ drivers.forEach(function(el){
   console.log(el.name);
 });
 };
-
+//how to creata a constant logDriversByHometown assigned to anonymous function with drivers array and location argument
 const logDriversByHometown = function (drivers, location) {
+//how to iterate of drivers array and want to execute a function 1x for ea element with cb argument
     return drivers.forEach(function(element) {
+//how to determine if the element hometown value is strictly equivalent to location argument
         if(element.hometown === location) {
+//how to output to console the element's name when its prereq is met.
             console.log(element.name)
         }
     })
