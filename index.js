@@ -23,7 +23,7 @@ const driversByRevenue = function (drivers) {
 //how to output and sort with callback function of 2 integer arguments in descending order
        return a.revenue - b.revenue
    });
- }
+ };
 // how to create a function driversByName and pass in drivrs ARRAY
 function driversByName(drivers) {
  //how to create a new object instance
