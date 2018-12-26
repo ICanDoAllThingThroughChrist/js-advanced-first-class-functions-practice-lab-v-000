@@ -41,8 +41,9 @@ drivers.forEach(function(driver) {
 //how to recall totalRevenue from memory?
 return totalRevenue;
 };
-//how to create a constant averageRevenue assigned to function() with drivers array?
+//how to create a constant averageRevenue assigned to anonymous function() with drivers array argument?
 const averageRevenue = function(drivers) {
-//how to output a calculated average revenue per drivers? numerator is totalRevenue(drivers), denominator is drivers.length
+//how to output a calculated average revenue per drivers? numerator is totalRevenue(drivers), 
+//denominator is drivers.length
 return totalRevenue(drivers) / drivers.length;
 };
