@@ -20,7 +20,7 @@ const driversByRevenue = function (drivers) {
 //  debugger;
 //how to output sorted function of the new variable
    return newArray.sort(function (a, b) {
-//how to output and sort with callback function of 2 integer arguments in descending order
+//how to output and sort with callback function of 2 integer arguments in ascending order
        return a.revenue - b.revenue
    });
  };
