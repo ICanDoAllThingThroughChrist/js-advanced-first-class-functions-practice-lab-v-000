@@ -3,7 +3,7 @@
 const logDriverNames = function (drivers) {
 //how to iterate of drivers array and want to execute a function 1x for ea element with cb argument
 drivers.forEach(function(el){
-//how to output to console the element's name  
+//how to output to console the element's name
   console.log(el.name);
 });
 };
