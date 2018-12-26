@@ -1,6 +1,9 @@
 // Code your solution in this file!
+//how to creata a constant logDriversNames assigned to anonymous function with drivers array argument
 const logDriverNames = function (drivers) {
+//how to iterate of drivers array and want to execute a function 1x for ea element with cb argument
 drivers.forEach(function(el){
+//how to output to console the element's name  
   console.log(el.name);
 });
 };
